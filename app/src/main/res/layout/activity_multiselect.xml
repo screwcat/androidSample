@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fxjwsq.taiji.com.sample.MultiselectActivity">
+
+    <layout.GuideGridLayout
+        android:id="@+id/listPoliceCategory"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        app:itemMargin="3"
+        app:numColumns="3">
+
+    </layout.GuideGridLayout>
+
+</android.support.constraint.ConstraintLayout>
